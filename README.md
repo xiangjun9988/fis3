@@ -20,18 +20,15 @@
 > * 01 webpack加载css
 > * 02 图片加载
 > * 03 压缩js
-> * [04 体验fis3 demo 发布一个项目](#gfis04)
-> * [05 fis3指令 demo 安装vue backbone angular](#gfis05)
-> * [06 fis3配置 demo json文件不要发布，css文件，以及js文件，都在static目录下 ](#gfis06)
-> * 07 vue项目
-> * [08 压缩js uglify-js]()
-> * [09 压缩css clean-css]()
-> * [10 压缩png图片 png-compressor]()
-> * [11 精灵图 __sprite]()
-> * [12 指纹 useHash]()
-> * [13 css资源的合并 __inline]()
-> * [14 html资源的合并 __inline]()
-> * 15 js资源的合并
-
-<a id="g01">跳到这里</a>
-<a id="gfis04">04体验fis3</a>
+> * [04 体验fis3 demo 发布一个项目](./tree/master/20170425/04)
+> * [05 fis3指令 demo 安装vue backbone angular](./tree/master/20170425/05)
+> * [06 fis3配置 demo json文件不要发布，css文件，以及js文件，都在static目录下 ](./tree/master/20170425/06)
+> * [07 vue项目](./tree/master/20170425/17)
+> * [08 压缩js uglify-js](./tree/master/20170425/08)
+> * [09 压缩css clean-css](./tree/master/20170425/09)
+> * [10 压缩png图片 png-compressor](./tree/master/20170425/10)
+> * [11 精灵图 __sprite](./tree/master/20170425/11)
+> * [12 指纹 useHash](./tree/master/20170425/12)
+> * [13 css资源的合并 __inline](./tree/master/20170425/13)
+> * [14 html资源的合并 __inline](./tree/master/20170425/14)
+> * [15 js资源的合并](./tree/master/20170425/15)

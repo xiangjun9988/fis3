@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body {
+	background: #efefef;
+}
+.nav {
+	height: 60px;
+	line-height: 60px;
+	background: #06c1ae;
+	color: #fff;
+	text-align: center;
+}
+.nav .login {
+	float: right;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.nav h1 {
+	font-size: 24px;
+	text-indent: 20px
+}
+.nav .go-back {
+	position: relative;
+	float: left;
+}
+.nav .go-back .arrow {
+	position: absolute;
+	top: 17px;
+	left: 2px;
+	border: 14px solid transparent;
+	border-right-color: #fff;
+}
+.nav .go-back .arrow.green {
+	border-right-color: #06c1ae;
+	left: 5px;
+}
+.search {
+	padding: 5px;
+	background: #fff;
+}
+.search input {
+	display: block;
+	width: 80%;
+	border: 0;
+	outline: 0;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background: #efefef;
+}
+/*home页面样式*/
+.home {
+	background: #efefef;
+}
+.home .type-btns {
+	padding: 10px 0 5px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.home .type-btns li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.home .type-btns img {
+	width: 60%;
+}
+.home .type-btns p {
+	color: #666;
+	font-size: 12px;
+	padding: 5px 0 10px;
+}
+.home .type-btns a {
+	text-decoration: none;
+}
+.home .ad {
+	background: #fff;
+	margin-bottom: 10px;
+}
+.home .ad li {
+	float: left;
+	width: 33.33333333%;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 0 20px;
+}
+.home .ad li:last-child {
+	border-right: 0;
+}
+.home .ad a {
+	color: #666;
+	text-decoration: none;
+}
+.home .ad h3 {
+	color: red;
+}
+.home .ad p {
+	padding: 5px 0 10px;
+}
+.home .ad img {
+	width: 50%;
+}
+/*定义商品样式*/
+.list-part {
+	padding: 0 10px;
+	background: #fff;
+}
+.list-part li {
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.list-part li img {
+	width: 100px;
+	float: left;
+}
+.list-part .text-content {
+	margin-left: 105px;
+	height: 60px;
+}
+.list-part li a {
+	color: #666;
+	text-decoration: none;
+	font-size: 12px;
+}
+.list-part li h3 {
+	height: 47px;
+    font-size: 18px;
+    color: #000;
+}
+.list-part li .price {
+	color: #06c1ae;
+}
+.list-part li .sale {
+	float: right;
+}
+
+/*排序按钮样式*/ 
+.list .order {
+	background: #fff;
+}
+.list .order li {
+	float: left;
+	width: 25%;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.list .order li:last-child {
+	border-right: none;
+}
+.list .order .arrow {
+	font-size: 0;
+	border: 4px solid transparent;
+	border-top: 4px solid #666;
+	position: relative;
+	left: 2px;
+	top: -1px;
+}
+.list .load-more {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	color: #06c1ae;
+	background: #fff;
+}
+.list .load-more .arrow {
+	border: 10px solid transparent;
+	border-top: 10px solid #06c1ae;
+	font-size: 0;
+	position: relative;
+	left: 7px;
+    top: 2px;
+}
+.list .load-more .green {
+	position: absolute;
+	border-top: 10px solid #fff;
+	top: -13px;
+    left: -10px;
+}
+/*详情页样式*/
+.detail .product {
+	position: relative;
+	color: #fff;
+} 
+.detail .product img {
+	width: 100%;
+}
+.detail .product h1,
+.detail .product p {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.detail .product h1 {
+	bottom: 30px;
+}
+.detail .buy {
+	padding: 10px;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.detail .buy .price {
+	color: #06c1ae;
+}
+.detail .buy .price strong {
+	font-size: 40px;
+}
+.detail .buy .go-to-buy {
+	padding: 8px 16px;
+	color: #fff;
+	background: orange;
+	float: right;
+	margin: 10px;
+	font-size: 12px;
+}
+.detail .sale {
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.detail .sale li {
+	float: left;
+	width: 50%;
+	color: yellowgreen;
+	height: 30px;
+	line-height: 30px;
+}
+.detail .sale li:last-child {
+	color: #666;
+}
+.detail .part {
+	background: #fff;
+	padding: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.detail .part .sub-title {
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.detail .part .container {
+	padding: 10px 0;
+}
+.detail .part .container p {
+	line-height: 30px;
+}
+.detail .part .container h3 {
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: orange;
+}
+.detail .part .footer {
+	height: 40px;
+	line-height: 40px;
+	color: skyblue;
+	border-top: 1px solid #ccc;
+}

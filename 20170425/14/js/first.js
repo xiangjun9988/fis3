@@ -1,0 +1,1 @@
+document.write('<h1>first爱创课堂 第一名</h1>')

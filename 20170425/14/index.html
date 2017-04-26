@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 合并css资源 -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css?__inline">
+
+	<style type="text/css">
+		@import url(css/index.css?__inline);
+	</style>
+</head>
+<body>
+	<!-- 嵌入模板 -->
+	<!--<link rel="import" href="view/title.html?__inline">-->
+	<link rel="import" href="view/title.html?__inline">
+	<ul>
+		<li>
+			<!-- 将img嵌入html中，进行请求的合并 -->
+			<img src="img/01.png?__inline" alt="">
+			<p>话费</p>
+		</li>
+		<li>
+			<img src="img/02.png?__inline" alt="">
+			<p>游戏</p>
+		</li>
+		<li>
+			<img src="img/03.png?__inline" alt="">
+			<p>旅行</p>
+		</li>
+		<li>
+			<img src="img/04.png?__inline" alt="">
+			<p>车险</p>
+		</li>
+	</ul>
+	<!-- 引入模板 -->
+	<script type="text/template">
+		<!--<link rel="import" href="view/home.tpl?__inline">-->
+		<link rel="import" href="view/home.tpl?__inline">
+	</script>
+	<!-- 引入js文件 -->
+	<!--<script type="text/javascript" src="js/first.js?__inline"></script>-->
+	<script type="text/javascript" src="js/first.js?__inline"></script>
+	<!-- <script type="text/javascript" src="js/second.js"></script> -->
+	<script type="text/javascript">
+		__inline('js/second.js')
+	</script>
+</body>
+</html>

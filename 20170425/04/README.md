@@ -31,7 +31,7 @@ fis3 release -d ../dest
 >> ```
 
 >### fis3 install -h查看参数
-![](install.png)
+>>![](install.png)
 >> ```
 >> fis3 install 组件名称
 >> ```

@@ -20,7 +20,7 @@
 > * 01 webpack加载css
 > * 02 图片加载
 > * 03 压缩js
-> * [04 体验fis3 demo 发布一个项目](./tree/master/20170425/04)
+> * [04 体验fis3 demo 发布一个项目](20170425/04)
 > * [05 fis3指令 demo 安装vue backbone angular](./tree/master/20170425/05)
 > * [06 fis3配置 demo json文件不要发布，css文件，以及js文件，都在static目录下 ](./tree/master/20170425/06)
 > * [07 vue项目](./tree/master/20170425/17)

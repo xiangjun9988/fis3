@@ -36,4 +36,4 @@ fis3 release -d ../dest
 >> fis3 install 组件名称
 >> ```
 
-[所有插件地址：](https://github.com/fis-components/components/tree/master/modules)
+[所有插件地址：https://github.com/fis-components/components/tree/master/modules](https://github.com/fis-components/components/tree/master/modules)

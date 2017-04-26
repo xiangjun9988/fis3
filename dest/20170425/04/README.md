@@ -2,14 +2,11 @@
 ```
 fis3 release -d ../dest
 ```
->### 发布项目到指定的dest文件夹下面
-![](img/show.GIF)
-
 >### 可以通过fis3 -h查看所有指令
-![](img/img.png)
+![](img.png)
 
 >### 可以通过fis3 release -h查看参数
-![](img/release.png)
+![](release.png)
 >>```
 >>没有参数，默认向内置的服务器发布
 >>-d 向某一个目录发布（注意：绝对不能在当前>>目录下发布，否则会嵌套发布）
@@ -21,7 +18,7 @@ fis3 release -d ../dest
 >>```
 
 >### fis3 server -h查看参数
->> ![](img/server.png)
+>> ![](server.png)
 >> ```
 >> Start 启动服务器
 >> Stop 关闭服务器
@@ -34,7 +31,7 @@ fis3 release -d ../dest
 >> ```
 
 >### fis3 install -h查看参数
->>![](img/install.png)
+>>![](install.png)
 >> ```
 >> fis3 install 组件名称
 >> ```

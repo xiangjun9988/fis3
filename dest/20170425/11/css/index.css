@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body, html {
+	background: #efefef;
+}
+ul {
+	margin: 100px auto;
+	width: 600px
+}
+li {
+	width: 60px;
+	height: 50px;
+	float: left;
+	margin-right: 1px;
+	background: #fff;
+	padding-top: 10px;
+	text-align: center;
+}
+span {
+	padding: 12px;
+	margin-bottom: 2px;
+	font-size: 0;
+	display: inline-block;
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+}
+p {
+	font-size: 12px;
+	color: #666;
+}
+/*设置span背景
+.item-1 {
+	background-image: url(../img/01.png)
+}
+.item-2 {
+	background-image: url(../img/02.png)
+}
+.item-3 {
+	background-image: url(../img/03.png)
+}
+.item-4 {
+	background-image: url(../img/04.png)
+}*/
+/*我们要合并图片的请求
+span {
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+}
+.item-1 {
+	background-position: 0 0;
+}
+.item-2 {
+	background-position: 0 -44px;
+}
+.item-3 {
+	background-position: 0 -84px;
+}
+.item-4 {
+	background-position: 0 -133px;
+}*/
+
+/*制作精灵图*/
+span {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.item-1 {
+	/* 第一步 为需要制作精灵图的图片，加上?__sprite */
+	background-image: url(/20170425/11/img/01.png?__sprite);
+}
+.item-2 {
+	background-image: url(/20170425/11/img/02.png?__sprite);
+}
+.item-3 {
+	background-image: url(/20170425/11/img/03.png?__sprite);
+}
+.item-4 {
+	background-image: url(/20170425/11/img/04.png?__sprite);
+}
+.demo {
+	height: 500px;
+	background: url(/20170425/11/img/sprite.png) no-repeat center;
+}

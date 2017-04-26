@@ -1,1 +1,0 @@
-document.write('fis3 更新了')

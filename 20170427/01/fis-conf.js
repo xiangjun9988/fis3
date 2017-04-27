@@ -20,7 +20,10 @@ fis.match('*.js',{
 })
 //打包阶段   将图片制作精灵图
 fis.match('::package',{
-  //将图片制作精灵图 打包阶段制作精灵图：分三步 第一在css文件中图片后加?__sprite 第二步 启用在获取css文件中启用精灵,第三步 打包精灵图
+  //将图片制作精灵图 打包阶段制作精灵图：
+  //分三步 第一在css文件中图片后加?__sprite 
+  //第二步 启用在获取css文件中启用精灵~
+  //第三步 打包精灵图
   spriter:'csssprites',
   // 第二步 资源定位
   postpackager: 'loader'

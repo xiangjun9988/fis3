@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style type="text/css">
+.layer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 250px;
+	margin: -125px -200px;
+	background: rgba(0, 0, 0, .5);
+	display: none;
+}
+</style>
+<body>
+<button id="btn">按钮</button>
+<!-- 点击按钮，显示弹层，点击关闭，隐藏弹层 -->
+<div class="layer" id="layer">
+	<h1>这是标题</h1>
+	<button id="close" class="close">关闭</button>
+</div>
+<script type="text/javascript" src="sea.js"></script>
+<script>
+	seajs.use('./js/modules/app.js');
+</script>
+</body>
+</html>

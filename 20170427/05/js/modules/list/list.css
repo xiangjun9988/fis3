@@ -1,0 +1,108 @@
+/* 第四步 定义样式 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+#list {
+	display: block;
+}
+.list header {
+	height: 60px;
+	line-height: 60px;
+	background: green;
+	color: #fff;
+}
+.list .go-back {
+	float: left;
+	position: relative;
+}
+.list .go-back span {
+	position: absolute;
+	border: 20px solid transparent;
+	border-right: 20px solid #fff;
+	left: -10px;
+	top: 12px;
+}
+.list .go-back .green-arrow {
+	border-right-color: green;
+	top: -20px;
+	left: -16px;
+}
+.list .login {
+	float: right;
+	margin-right: 10px;
+}
+.list header h1 {
+	text-align: center;
+	font-size: 25px;
+	text-indent: 40px;
+}
+.list .search {
+	padding: 10px;
+	display: -webkit-box;
+}
+.list .search input {
+	-webkit-box-flex: 1;
+	display: block;
+	padding: 0 10px;
+	border: 1px solid green;
+	outline: none;
+	box-sizing: border-box;
+    height: 40px;
+}
+.list .search span {
+	width: 90px;
+	background: green;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+}
+.list .nav li {
+	float: left;
+	width: 12.5%;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	font-size: 12px;
+}
+.list .container {
+	display: -webkit-box;
+	font-size: 0;
+}
+.list .left-container,
+.list .right-container {
+	-webkit-box-flex: 1;
+	width: 50%;
+}
+.list .left-container {
+	padding: 6px 3px 6px 6px;
+}
+.list .right-container {
+	padding: 6px 6px 6px 3px;
+}
+.list .container img {
+	width: 100%;
+	margin-bottom: 6px;
+	display: block;
+}
+.list .go-top {
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	font-size: 12px;
+	width: 30px;
+	text-align: center;
+	padding: 10px 8px;
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	display: none;
+}

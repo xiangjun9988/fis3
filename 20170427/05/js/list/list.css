@@ -1,0 +1,95 @@
+.list .header {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: green;
+	color: #fff;
+}
+.list .header h1 {
+	font-size: 28px;
+	text-indent: 20px;
+}
+.list .header .login {
+	float: right;
+	margin-right: 10px;
+}
+.list .header .go-back {
+	float: left;
+	position: relative;
+}
+.list .header .go-back .arrow {
+	position: absolute;
+	top: 15px;
+	left: -5px;
+	border: 16px solid transparent;
+	border-right: 16px solid #fff;
+}
+.list .header .go-back .green {
+	left: -2px;
+	border-right-color: green;
+}
+.list .search {
+	padding: 10px;
+	display: -webkit-box;
+	font-size: 0;
+}
+.list .search input {
+	padding: 10px;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid green;
+	outline: none;
+	-webkit-box-flex: 1;
+	display: block;
+	height: 40px;
+	box-sizing: border-box;
+}
+.list .search span {
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	background: green;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+.list .nav {
+	margin: 10px 0 20px;
+}
+.list .nav li {
+	float: left;
+	width: 12.5%;
+	text-align: center;
+	font-size: 12px;
+}
+.list .image-container {
+	display: -webkit-box;
+}
+.list .image-container div {
+	-webkit-box-flex: 1;
+}
+.list .image-left-container  {
+	padding: 0 3px 6px 6px;
+}
+.list .image-right-container {
+	padding: 0 6px 6px 3px;
+}
+.list .image-container div img {
+	width: 100%;
+	display: block;
+	margin-bottom: 6px;
+}
+/*返回顶部*/
+.go-top {
+	width: 30px;
+	padding: 9px 6px;
+	font-size: 12px;
+	text-align: center;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	position: fixed;
+	right: 20px;
+	bottom: 60px;
+	display: none;
+} 

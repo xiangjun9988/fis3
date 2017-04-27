@@ -1,3 +1,7 @@
+var Dom = require('../lib/dom');
+var Event = require('../lib/event');
+
+
 // 为按钮绑定事件
 Event.on('btn', 'click', function () {
 	// 显示弹层

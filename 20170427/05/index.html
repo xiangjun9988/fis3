@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>爱创课堂图片网</title>
+</head>
+<body>
+<!-- 定义容器元素 -->
+<div id="app" style="display: none;">
+	<!-- 定义list模块 -->
+	<section id="list" class="list">
+		<header class="header">
+			<div class="go-back"><span class="arrow"></span><span class="arrow green"></span></div>
+			<div class="login">登录</div>
+			<h1>爱创课堂图片网</h1>
+		</header>
+		<div class="search">
+			<input type="text" placeholder="搜索你想要的图片">
+			<span>搜一搜</span>
+		</div>
+		<ul class="nav clearfix">
+			<li data-type="0">摄影</li>
+			<li data-type="1">明星</li>
+			<li data-type="2">壁纸</li>
+			<li data-type="3">宠物</li>
+			<li data-type="4">动漫</li>
+			<li data-type="5">风景</li>
+			<li data-type="6">头像</li>
+			<li data-type="7">人物</li>
+		</ul>
+		<div class="image-container">
+			<div class="image-left-container"></div>
+			<div class="image-right-container"></div>
+		</div>
+		<div class="go-top">返回顶部</div>
+	</section>
+	<section id="layer" class="layer"></section>
+</div>
+<!-- 定义大图页模板 -->
+<script type="text/template" id="tpl">
+	<div class="image-container" style="<%=style%>"><img src="<%=src%>" alt=""></div>
+	<header class="header">
+		<div class="go-back"><span class="arrow"></span><span class="arrow black"></span></div>
+		<h1><%=title%></h1>
+	</header>
+</script>
+<!-- 引入modjs -->
+<script type="text/javascript" src="lib/mod.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript">
+	// 引入入口文件
+	require('js/app')
+</script>
+</body>
+</html>

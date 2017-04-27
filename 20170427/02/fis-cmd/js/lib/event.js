@@ -1,3 +1,4 @@
+var Dom = require('./dom');
 // 封装事件库
 var Event = {
 	// 订阅事件
@@ -6,3 +7,5 @@ var Event = {
 		Dom.$(id)['on' + type] = fn;
 	}
 }
+// 暴露接口
+module.exports = Event;

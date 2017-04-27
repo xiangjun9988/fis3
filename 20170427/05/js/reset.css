@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#app {
+	display: block!important;
+}
+/*定义清除浮动的公用类*/ 
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}

@@ -31,3 +31,6 @@ var  Dom = {
 		}
 	}
 }
+
+// 只需要暴露接口
+module.exports = Dom;
